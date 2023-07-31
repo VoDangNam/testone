@@ -1,0 +1,53 @@
+.dangnhap
+{
+    width:300px;
+    height:500px;
+    background-color: aqua;
+    border:2px solid grey;
+    border-radius: 10px ;
+    text-align: center;
+    margin:0px auto;
+    
+}
+*{
+    padding:0;
+    margin:0;
+    box-sizing: 0;
+}
+h1
+{
+    color:aliceblue;
+    font-size:50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+img
+{
+    width:200px;
+    height:200px;
+    margin-top:10px;
+
+}
+input
+{
+    width:250px;
+    height:40px;
+    padding-left: 20px;
+    margin-top:20px;
+    border-radius: 10px;
+}
+button{
+    width:250px;
+    height:50px;
+   
+    font-size:16px;
+    border-radius: 10px;
+    
+}
+button:hover
+{
+    font-size:30px;
+    background-color: rgb(14, 193, 115);
+    color:antiquewhite;
+    cursor:pointer;
+}

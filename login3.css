@@ -1,0 +1,47 @@
+.login{
+    width: 300px;
+    height: 400px;
+    background-image: url(https://scontent.fdad3-6.fna.fbcdn.net/v/t39.30808-6/306650523_388470606822463_7101042994358404927_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=174925&_nc_ohc=m-TeamY6blAAX9k7Hed&_nc_oc=AQlmrhC8D3xm7Z2L8hd4RjuT3ikZBO4drC4qwBepqxcWUrFazvL76bD6RvvrWHZ8YStLlmpn5TZDJQ1gJWfCjzgW&_nc_ht=scontent.fdad3-6.fna&oh=00_AfASItHJWidpJRiIbm-HCV6Yy4Z-o7wnduPxFFfOVao9jA&oe=63E8DD40);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+     margin:0px auto;
+     text-align: center;
+     boder:10px;
+}
+h1{
+     color :rgb(24, 236, 34);
+     margin-bottom: 20px;
+}
+input
+{
+    width:200px;
+    height:50px;
+    padding-left: 10px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+button
+{
+    width:200px;
+    height:50px;
+    margin-top:33px;
+   border-radius: 10px;
+    
+}
+button:hover
+{
+  font-size: 15px;
+  background-color: rgb(166, 26, 26);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.full
+{
+    width: 1800px;
+    height:1900px;
+    background-color: rgb(115, 1, 128);
+}

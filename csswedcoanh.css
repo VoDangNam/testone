@@ -1,0 +1,200 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    text-align: center;
+}
+.header{
+    background-color: #a2720a;
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+.logo>img{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(247, 240, 240);
+    border-radius: 100px;
+    border: 3px solid rgb(189, 192, 26);
+}
+.logo>img:hover{
+    width: 100px;
+    height: 100px;
+
+}
+.text{
+    width:50%;
+    height: 100px;
+    background-image: url('https://scontent.xx.fbcdn.net/v/t1.15752-9/339583148_763409838484364_247897407813194719_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=aee45a&_nc_ohc=NHt_k5rVSEkAX87GMTB&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdR3SI99L_-Aap4UwQOnc2T9LkpF5uYiDLOQ4BL0W2oMKw&oe=645A2A91');
+    box-shadow: 10px 3px 10px 2px green,-10px 0 4px blue ;
+    margin:auto;
+    font-size: 30px;
+    padding-top: 20px;
+    color:azure
+}
+.nav>input{
+    background-color: wheat;
+    width:300px;
+    height: 30px;
+    margin:auto;
+    margin-left: 10px;
+    margin-top: 30px;
+    padding-right: 200px;
+    margin-right: 20px;
+}
+.containermain{
+    background-color: violet;
+    display:flex;
+    width:100%;
+    height: 600px;
+}
+
+.main20{
+   width: 20%;
+   background-color: blueviolet;
+}
+.menu{
+    position:relative;
+    width: 80px;
+}
+.menu> .label{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 5px;
+    border:1px solid #ccc;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor:pointer;
+    transition: all 0.3s ease-in;
+}
+.menu >.list{
+    position:absolute;
+    top:100%;
+    width: 100%;
+    max-height: 0;
+    overflow:hidden;
+    padding:0 5px;
+    border-radius: 4px;
+    list-style: none;
+    transition: max-height 0.35s ease-out;
+}
+.menu >.line{
+    display: none;
+    height: 2px;
+    opacity: 0;
+}
+.main80{
+    width: 90%;
+    height: 600px;
+    background-color: rgb(5, 204, 148);
+    display: flex;
+}
+.main80{
+    padding:0;
+    margin: 0 ;
+    box-sizing: border-box;
+}
+.containerkhung{
+    display:flex;
+    width: 100%;
+    height: 70%;
+    background-color: rgb(18, 93, 159);
+}
+
+.khung1{
+    width: 300px;
+    height: 300px;
+    background-color: #881818;
+    margin-left: 20px;
+    margin-top:50px;
+    color:rgba(227, 52, 8, 0.455);
+    font-style:italic;
+    
+    background-image: url(https://tse3.mm.bing.net/th?id=OIP.pQy3WHf5rduRR-V9SudaqAHaFj&pid=Api&P=0);
+}
+
+.khung2{
+    width: 300px;
+    height: 300px;
+    background-color: #881818;
+    color:rgba(216, 0, 0, 0.379);
+    font-style:italic;
+    margin-left: 20px;
+    margin-top:50px;
+    background-image: url(https://scontent.fdad3-6.fna.fbcdn.net/v/t39.30808-6/306650523_388470606822463_7101042994358404927_n.jpg?stp=dst-jpg_s851x315&_nc_cat=104&ccb=1-7&_nc_sid=da31f3&_nc_ohc=XdrsXBYLaEgAX-XrJcv&_nc_oc=AQmOE5BHkhFYd6sknvqbMTLtKOq1wPcEN83tB5qUnPgDqp2-bfGL4CsoRJAr1FjMW63neH_STpTdDH-hN49LTa8_&_nc_ht=scontent.fdad3-6.fna&oh=00_AfAkN6-7QnkU-USujt8sGuKPnLpQCDhwx3Kqc7bbZ09-vw&oe=6437F740);
+}
+.khung3{
+    width: 300px;
+    height: 300px;
+    background-color: #881818;
+    color:rgba(216, 0, 0, 0.579);
+    font-style:italic;
+    margin-left: 20px;
+    margin-top:50px;
+    background-image: url(https://tse2.mm.bing.net/th?id=OIP._8Ma_D24iuhwKxtgF6Mh2gHaE6&pid=Api&P=0) ;
+
+}
+.khung4{
+    width: 300px;
+    height: 300px;
+    background-color: #881818;
+    color:rgba(243, 42, 11, 0.5);
+    font-style:italic;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top:50px;
+    background-image: url(https://tse3.mm.bing.net/th?id=OIP.V-wRg8vjbtH7HUg4NeZedwHaEK&pid=Api&P=0) ;
+}
+.khung5{
+    width: 300px;
+    height: 300px;
+    background-color: #881818;
+    color:rgb(210, 22, 44);
+    font-style:italic;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top:50px;
+    background-image: url(https://tse3.mm.bing.net/th?id=OIP.YsMM9gWq27Dq4rNT-uFAuQHaFL&pid=Api&P=0);
+}
+button{
+
+    width: 50px;
+    height: 30px;
+    background-color: bisque;
+
+    margin-top: 250px;
+   border-bottom: grey;
+   border-radius: 5px;
+   margin-left: 150px;
+}
+button:hover{
+    font-size: 20px;
+    background-color: green;
+    width: 55px;
+    height: 35px;
+}
+.containerfooter{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(230, 17, 159);
+}
+.linkfb{
+    width: 50%;
+    height: 100%;
+    border: 5px solid grey;
+    background-color: rgb(70, 92, 19);
+}
+.linkzalo{
+    width: 50%;
+    height: 100%;
+
+    border: 5px solid grey;
+    background-color: rgb(70, 92, 19);
+}
+
+
+
+

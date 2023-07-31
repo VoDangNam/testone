@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+.container {
+  width: 929px;
+  height: 458px;
+  background-color: antiquewhite;
+  margin: 0px auto;
+  margin-top: 123px;
+}
+.header {
+  display: flex;
+  width: 929px;
+  height: 98px;
+  background-color: beige;
+}
+.installed {
+  width: 50%;
+  height: 88px;
+  background-color: azure;
+  padding-top: 30px;
+}
+.containersearch {
+  width: 50%;
+  height: 88px;
+  background-color: rgb(71, 174, 174);
+  padding-top: 30px;
+  padding-left: 137px;
+  display: flex;
+}
+.text {
+  width: 25%;
+  height: 88px;
+  margin-right: 40%;
+}
+
+.main {
+  width: 100%;
+  height: 355px;
+  background-color: rgb(255, 153, 0);
+  display: flex;
+}
+
+.main30 {
+  width: 30%;
+  height: 329px;
+  background-color: antiquewhite;
+  margin: 10px 9px 10px 10px;
+}
+.containermain70 {
+  width: 70%;
+  background-color: rgb(209, 134, 28);
+  display: flex;
+  justify-content: space-between;
+}
+.nav1 {
+    width: 65%;
+  height: 42px;
+  background-color: azure;
+  border: 1px solid grey;
+}
+.nav2 {
+
+  height: 42px;
+  background-color: azure;
+  border: 1px solid grey;
+  padding: 0 10px;
+  margin-right: 10px;
+ 
+}
+.nav3 {
+
+  height: 42px;
+  background-color: azure;
+  border: 1px solid grey;
+  padding: 0 10px;
+}

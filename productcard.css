@@ -1,0 +1,28 @@
+
+.wrapper{
+    background-color: red;
+    width: 500px;
+    height: 300px;
+   float: left;
+}
+.image{
+    display: inline-block;
+    background-color: blue;
+    width: 50%;
+    height: 300px;
+
+
+}
+.info{
+    display: block;
+    background-color:rgb(216, 216, 216)  ;
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+.gia{
+    display: inline-block;
+}
+.nut{
+    display: inline-block;
+}

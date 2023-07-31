@@ -1,0 +1,19 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    text-align: center;
+}
+.container{
+
+    width: 700px;
+    height: 800px;
+    background-color: aquamarine;
+    margin: auto;
+}
+
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(170, 146, 146);
+}

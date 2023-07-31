@@ -1,0 +1,33 @@
+.baoquanh{
+    width:400px;
+    height:500px;
+    background-color: aqua;
+    text-align: center;
+    border-radius: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+    
+}
+*{
+    padding:0;
+    margin:0;
+   box-sizing: border-box;
+}
+
+.anh{
+   margin-right: 400px;
+   padding-right: 200px;
+}
+img{
+    width:200px;
+    height:300px;
+}
+.coment{
+   width:200px;
+   margin-left: 40px;
+   height:400px;
+   padding-left: 100px;
+}
+p{ 
+   width:200px;
+   height:300px;
+}

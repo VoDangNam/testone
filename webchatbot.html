@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tính toán lượng calo</title>
+    <link rel="stylesheet" href="webchatbot.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <header>
+      <h1>Tính toán lượng calo</h1>
+    </header>
+    <main>
+      <section>
+        <h2>Nhập thông tin</h2>
+        <form id="calo-form" onsubmit="calculateCalo()">
+          <label for="name">Tên món ăn:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="protein">Số lượng protein (g):</label>
+          <input type="number" id="protein" name="protein" required />
+
+          <label for="fat">Số lượng chất béo (g):</label>
+          <input type="number" id="fat" name="fat" required />
+
+          <label for="carb">Số lượng carbohydrate (g):</label>
+          <input type="number" id="carb" name="carb" required />
+
+          <button type="submit">Tính toán <i class="fa-brands fa-tiktok"></i></button>
+        </form>
+      </section>
+      <section>
+        <h2>Kết quả</h2>
+        <p>Tổng lượng calo: <span id="calo-result"></span> calo</p>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; NAM+GPT</p>
+    </footer>
+
+    <script>
+      function calculateCalo() {
+        event.preventDefault();
+
+        // Lấy giá trị từ các trường nhập liệu
+        const protein = parseFloat(document.getElementById("protein").value);
+        const fat = parseFloat(document.getElementById("fat").value);
+        const carb = parseFloat(document.getElementById("carb").value);
+
+        // Tính toán lượng calo
+        const calo = Math.round((protein * 4 + fat * 9 + carb * 4) * 100) / 100;
+
+        // Hiển thị kết quả tính toán
+        document.getElementById("calo-result").textContent = calo;
+
+        // Lưu tổng lượng calo vào localStorage
+        const date = new Date();
+        const dateString = date.toDateString();
+        let totalCalo = localStorage.getItem(dateString) || 0;
+        totalCalo = parseFloat(totalCalo) + calo;
+        localStorage.setItem(dateString, totalCalo);
+      }
+
+      // Hiển thị tổng lượng calo của ngày hiện tại
+      const date = new Date();
+      const dateString = date.toDateString();
+      const totalCalo = localStorage.getItem(dateString) || 0;
+      document.getElementById("daily-calo").textContent = totalCalo;
+    </script>
+  </body>
+</html>
